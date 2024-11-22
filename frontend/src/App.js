@@ -150,7 +150,7 @@ function App() {
   const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(1);
   const [zoomLevel, setZoomLevel] = useState(1);  // State for zoom level
-  const [pdfUrl, setPdfUrl] = useState('/Rohan_Wetal_Kalvium_Task.pdf');  // Default PDF file path
+  const [pdfUrl, setPdfUrl] = useState('/Anshul_resume_overleaf_work_acc.pdf');  // Default PDF file path
 
   useEffect(() => {
     // Listen for page change broadcast from server
